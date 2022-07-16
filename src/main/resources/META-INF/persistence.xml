@@ -14,14 +14,13 @@
         <class>org.tutorial.model.Reply</class>
         <class>org.tutorial.model.Follow</class>
         <class>org.tutorial.model.Like</class>
-
-
+        <class>org.tutorial.model.TwiterUsers</class>
 
         <properties>
             <property name="javax.persistence.jdbc.url" value="jdbc:mysql://127.0.0.1:3306/twiter"/>
             <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
             <property name="javax.persistence.jdbc.user" value="root"/>
-            <property name="javax.persistence.jdbc.password" value="3636"/>
+            <property name="javax.persistence.jdbc.password" value="Papusel@123"/>
 
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
             <property name="hibernate.show_sql" value="true"/>
