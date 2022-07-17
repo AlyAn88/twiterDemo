@@ -25,6 +25,9 @@ public class Mention {
     public Mention(User user) {
         this.user = user;
     }
+    public Mention(){
+
+    }
 
     public Long getId() {
         return id;

@@ -14,7 +14,7 @@ public class PostController implements RepositoryInterface {
 
 
     @PostMapping("/createUser")
-    public String creatUser(@RequestBody TwiterUsers twiterUsers) {
+    public String createUser(@RequestBody TwiterUsers twiterUsers) {
         return postControllerMethods.createAndSaveTwiterUser(twiterUsers);
 
     }
@@ -81,7 +81,7 @@ public class PostController implements RepositoryInterface {
         twiterUsers.getPosts().add(post);
         twiterUsersRepository.save(twiterUsers);
 
-        return twiterUsers.getUserName() + ": your message is posted succesfuly";
+        return twiterUsers.getUserName() + ": your message is posted successfully";
     }
 
     @PostMapping("/likeAPost")
